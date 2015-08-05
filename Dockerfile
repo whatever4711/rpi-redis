@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150805
-MAINTAINER sameer@damagehead.com
+FROM resin/rpi-raspbian
+MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
 
 ENV REDIS_USER=redis \
     REDIS_DATA_DIR=/var/lib/redis \
